@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>|- Calculadora -|</title>
+    <title>| Calculadora |</title>
 </head>
 <body>
    <div class="box">
     <h1>Calculadora</h1>
-    <div class="tela">1234</div>
+    <div class="tela"></div>
     <table>
         <tr>
-            <td><button>C</button></td>
-            <td><button><</button></td>
+            <td><button onclick="limpar()">C</button></td>
+            <td><button onclick="apagar()"><</button></td>
             <td><button onclick="inserir('/')">/</button></td>
-            <td><button onclick="inserir('X')">X</button></td>
+            <td><button onclick="inserir('*')">X</button></td>
         </tr>
         <tr>
             <td><button onclick="inserir('7')">7</button></td>
@@ -34,11 +34,11 @@
             <td><button onclick="inserir('1')">1</button></td>
             <td><button onclick="inserir('2')">2</button></td>
             <td><button onclick="inserir('3')">3</button></td>
-            <td rowspan="2"><button onclick="inserir('=')" style="height: 102px; background-color: #d45500 ;">=</button></td>
+            <td rowspan="2"><button onclick="somar()" style="height: 102px; background-color: #d45500 ;">=</button></td>
         </tr>
         <tr>
             <td colspan="2"><button onclick="inserir('0')" style="width: 102px;">0</button></td>
-            <td><button>.</button></td>
+            <td><button onclick="inserir('.')">.</button></td>
         </tr>
     </table>
     <span>&copyDouglas Miranda </span>
