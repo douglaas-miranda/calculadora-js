@@ -5,16 +5,16 @@
 }
 
 body {
-    background: linear-gradient(150deg, #646eff, #400cfa);
+    background: linear-gradient(150deg, #ffffff, #bca8ff);
     height: 100vh;
     text-align: center;
-    color: #fff;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .box {
     position: absolute;
-    background-color: rgba(36, 36, 36, 0.842);
+    background-color: rgba(255, 255, 255, 0.842);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,7 +29,7 @@ button {
     cursor: pointer;
     border: none;
     background-color: #575757;
-    color: #fff;
+    color: #000000;
 }
 
 button:hover {
@@ -41,9 +41,9 @@ button:active {
 }
 
 .tela {
-    background-color: #fff;
+    background-color: #040024;
     height: 30px;
-    color: #000000;
+    color: #ffffff;
     font-size: 25px;
     text-align: end;
     margin: 3px;
