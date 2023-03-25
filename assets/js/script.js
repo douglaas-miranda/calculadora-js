@@ -1,5 +1,8 @@
+/* Funcionalidades  da calculadora */
+
 function inserir(num) {
-  document.querySelector('.tela').innerHTML += num;  
+  let tela = document.querySelector('.tela');
+    tela.innerHTML += num;
 }
 
 function limpar() {
@@ -19,3 +22,13 @@ function somar () {
     document.querySelector('.tela').innerHTML = "nenhum comando"
   }
 }
+
+/* Modo Escuro */
+
+const toggleDark = document.getElementById('dark-theme');
+const html = document.querySelector('html');
+
+toggleDark.addEventListener('click', function () {
+  console.log('OK');
+  html.classList.toggle('dark-mode');
+})

@@ -1,3 +1,31 @@
+:root {
+  --body-texto: #000000;
+  --body-background: linear-gradient(150deg, #ffffff, #bca8ff);
+  --calculadora-background: rgba(255, 255, 255, 0.842);
+  --button-background: #575757;
+  --button-color: #FFFFFF;
+  --button-hover: #474747;
+  --button-active: #252525;
+  --tela-background: #040024;
+  --tela-color: #FFFFFF;
+}
+
+.dark-mode:root {
+  --body-texto: #FFFFFF;
+  --body-background: linear-gradient(150deg, #292929, #090025);
+  --calculadora-background: rgba(17, 15, 15, 0.842);
+  --button-background: #dddddd;
+  --button-color: #000000;
+  --button-hover: #a7a7a7; 
+  --button-active: #6b6b6b;
+  --tela-background: #ffffff;
+  --tela-color: #000000;
+}
+
+.dark .box {
+  background: #2196F3;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,16 +33,16 @@
 }
 
 body {
-    background: linear-gradient(150deg, #ffffff, #bca8ff);
+    background: var(--body-background);
     height: 100vh;
     text-align: center;
-    color: #000000;
+    color: var(--body-texto);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .box {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.842);
+    background-color: var(--calculadora-background);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -28,22 +56,22 @@ button {
     font-size: 25px;
     cursor: pointer;
     border: none;
-    background-color: #575757;
-    color: #000000;
+    background-color: var(--button-background);
+    color: var(--button-color);
 }
 
 button:hover {
-    background-color:  #474747 ;
+    background-color: var(--button-hover);
 }
 
 button:active {
-    background-color: #252525;
+    background-color: var(--button-active);
 }
 
 .tela {
-    background-color: #040024;
+    background-color: var(--tela-background);
     height: 30px;
-    color: #ffffff;
+    color: var(--tela-color);
     font-size: 25px;
     text-align: end;
     margin: 3px;
