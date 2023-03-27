@@ -29,6 +29,5 @@ const toggleDark = document.getElementById('dark-theme');
 const html = document.querySelector('html');
 
 toggleDark.addEventListener('click', function () {
-  console.log('OK');
   html.classList.toggle('dark-mode');
 })

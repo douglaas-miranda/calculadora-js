@@ -12,9 +12,9 @@
 
 .dark-mode:root {
   --body-texto: #FFFFFF;
-  --body-background: linear-gradient(150deg, #292929, #090025);
-  --calculadora-background: rgba(17, 15, 15, 0.842);
-  --button-background: #dddddd;
+  --body-background: linear-gradient(150deg, #040016, #040011);
+  --calculadora-background: rgba(0, 2, 56, 0.445);
+  --button-background: #ffffff;
   --button-color: #000000;
   --button-hover: #a7a7a7; 
   --button-active: #6b6b6b;
