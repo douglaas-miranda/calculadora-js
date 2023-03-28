@@ -16,3 +16,11 @@
 <h4>Dark Mode</h4>
 
 ![Dark Theme](assets/design/Dark.png "Dark Theme")
+
+<h3> O que eu aprendi? </h3>
+
+<p>Aprendi a utilizar o comando substring, que remove uma string do conteúdo.</p>
+<p>Aprendi a utilizar o comando eval para retornar um resultado de uma expressão.</p>
+
+<h3>Desenvolvido por:</h3>
+<h4>Douglas Miranda</h4>
